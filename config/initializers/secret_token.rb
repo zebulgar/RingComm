@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Ringcomm::Application.config.secret_token = '41c4a694d0daf61c3afe45d18e97cab4ae11f648f96d19efc2605db9f022538b4216cdc7ca1d7ebe80c7af567a35bd01a78f88c7cd6f43fb551b137c21eb8302'
+Ringcomm::Application.config.secret_token = '567af65ac09490c627a6142144a79a8251a01fb437083d89b4c702a432bb2f204db3701bdb58028936050df07aef42df56005e45a2778a41c8179bc14d4c0988'
