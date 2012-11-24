@@ -44,7 +44,7 @@ var Countdown = function (settings) {
 		number_scale_y = (countdown_item_height / 120).toFixed(2) * 1;
 
 	self.countdown_template = '' +
-		'<div class="main_section" style="width: ' + (settings.holder_width + 1) +  'px; margin-bottom: ' + (Math.ceil(MAIN_SECTION_MARGIN_BOTTOM * number_scale_x)) + 'px;">' +
+		'<div class="main_section" style="width: 100%; margin-bottom: ' + (Math.ceil(MAIN_SECTION_MARGIN_BOTTOM * number_scale_x)) + 'px;">' +
 			'<div class="main_section2" style="padding: ' + (Math.ceil(MAIN_SECTION2_PADDING * number_scale_x)) + 'px 0">' +
 				'<div id="work_limits_' + settings.holder_id + '" class="work_limits clearfix">' +
 					'<div id="start_working_' + settings.holder_id + '" class="start_working"><span class="limit_title">Start Time:</span>&nbsp;&nbsp;<span class="limit_date"></span></div>' +
