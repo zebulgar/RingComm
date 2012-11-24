@@ -2,10 +2,12 @@
   %script{:type => 'text/javascript'}
     :plain
       $(document).ready(function () {
+        var now = new Date().getTime();
         var end_works_date1 = new Date(2013, 1, 13, 23, 30, 0, 0).getTime(); 
         var countdown1 = new Countdown({
           holder_id : "countdownHolder1",
           holder_width: 600,
+          start_work: now,
           end_work : end_works_date1,
           show_working_dates: true,
           show_progress_bar: false
