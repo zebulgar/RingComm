@@ -11,7 +11,21 @@
  *= require_self
  *= require_tree .
  */
-body {
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  background: -moz-linear-gradient(white, black);
+  background: -webkit-linear-gradient(white, black);
+  background: -o-linear-gradient(white, black);  
+  min-height: 100%;
+  position: relative;
+}
+.inner-wrapper {
   padding-top: 60px;
   padding-bottom: 40px; 
 }
