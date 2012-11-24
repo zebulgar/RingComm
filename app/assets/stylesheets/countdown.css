@@ -1,0 +1,126 @@
+/*
+	countdown  - default styles
+*/
+.main_section {
+	margin: 25px 0 25px 0;
+}
+
+.main_section2 {
+	padding: 20px 0;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+	working limits dates
+*/
+
+.work_limits {
+	font-weight: bold;
+}
+
+.work_limits .start_working {
+	float: left;
+	font-size: 14px;
+}
+
+.work_limits .end_working {
+	float: right;
+	font-size: 14px;
+}
+
+.work_limits div span.limit_title {
+	white-space: nowrap;
+	text-shadow: 1px 1px 1px #333;
+}
+
+.work_limits div span.limit_date {
+	color: #666;
+	text-shadow: 1px 1px 1px #fafafa;
+}
+
+
+/*
+	countdown
+*/
+
+.countdown {
+	padding: 23px 0 20px 0;
+}
+
+.time_block {
+	float: left;
+	padding: 0;
+	border-left: 1px solid #919191;
+	border-top: 1px solid #919191;
+	border-right: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	border-radius: 5px;
+	background: url("../images/grey_bg2.jpg") repeat left top;
+}
+
+.countdown .time_block:first-child {
+	margin-left: 0;
+}
+
+.time_block_number {
+	padding: 0;
+}
+
+.time_block_delimetr {
+	float: left;
+	width: 22px;
+	padding: 0 21px;
+	margin-top: 10px;
+}
+
+.countdown_title {
+
+}
+
+.countdown_title .countdown_item_title{
+	float: left;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px #333;
+}
+
+/*
+	progress line
+*/
+.construction_progress {
+	height: 25px;
+	margin: 0 0 40px 0;
+	padding: 3px;
+	border-top: 1px solid #919191;
+	border-left: 1px solid #919191;
+	border-right: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	border-radius: 5px;
+	background: url("../images/grey_bg2.jpg") repeat left top;
+}
+
+.progress_line {
+	width: 0px;
+	height: 25px;
+	border-radius: 5px;
+	background: url("../images/progress.png") repeat-x left top;
+}
+
+.construction_progress .yellow {
+	background: url("../images/progress.png") repeat-x left top;
+}
+
+.construction_progress .green {
+	background: url("../images/progress_green.png") repeat-x left top;
+}
+
+.construction_progress .blue {
+	 background: url("../images/progress_blue.png") repeat-x left top;
+}
+
+.construction_progress .violet {
+	  background: url("../images/progress_violet.png") repeat-x left top;
+}

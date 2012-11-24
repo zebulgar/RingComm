@@ -5,6 +5,7 @@
     = stylesheet_link_tag    "application", :media => "all"
     = javascript_include_tag "application"
     = csrf_meta_tags
+    = yield :head
   %body
     .wrapper
       .navbar.navbar-fixed-top
@@ -27,4 +28,4 @@
               %a{:href=> '/Committee'}
                 Committee
       .container.inner-wrapper
-        = yield
+        = yield :body
