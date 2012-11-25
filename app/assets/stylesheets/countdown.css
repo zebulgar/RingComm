@@ -25,6 +25,7 @@
 .work_limits .start_working {
 	float: left;
 	font-size: 14px;
+        
 }
 
 .work_limits .end_working {
@@ -34,7 +35,7 @@
 
 .work_limits div span.limit_title {
 	white-space: nowrap;
-	text-shadow: 1px 1px 1px #333;
+	color: #333;
 }
 
 .work_limits div span.limit_date {

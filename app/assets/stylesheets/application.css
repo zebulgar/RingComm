@@ -19,9 +19,9 @@ html, body {
 }
 
 .wrapper {
-  background: -moz-linear-gradient(white, black);
-  background: -webkit-linear-gradient(white, black);
-  background: -o-linear-gradient(white, black);  
+  background: -moz-linear-gradient(white, silver);
+  background: -webkit-linear-gradient(white, silver);
+  background: -o-linear-gradient(white, silver);  
   min-height: 100%;
   position: relative;
 }
