@@ -18,14 +18,24 @@
           %a.brand{:href => '#', :style => 'margin-left:20px'}
             2015 RingComm
           %u1.nav
-            %li.active
-              %a{:href => '#'}
-                Home
+            - if current_page?('/')
+              %li.active
+                %a{:href => '/'}
+                  Home
+            - else
+              %li
+                %a{:href => '/'}
+                  Home
             %li
               %a{:href=> '/history'}
                 History
-            %li
-              %a{:href=> '/committee'}
-                Committee
+            - if current_page?('/committee')
+              %li.active
+                %a{:href => '/committee'}
+                  Committee
+            - else
+              %li
+                %a{:href => '/committee'}
+                  Committee
       .container.inner-wrapper
         = yield :body
