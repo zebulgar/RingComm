@@ -9,6 +9,12 @@ class HomesController < ApplicationController
       format.json { render :json => @homes }
     end
   end
+  
+  def committee
+    respond_to do |format|
+      format.html # index.html.erb
+    end
+  end
 
   # GET /homes/1
   # GET /homes/1.json

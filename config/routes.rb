@@ -1,6 +1,7 @@
 Ringcomm::Application.routes.draw do
   resources :homes
   match '/' => 'homes#index'
+  match '/committee' => 'homes#committee'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
