@@ -35,6 +35,11 @@ html, body{
   margin-bottom:0px;
 }
 
+.goldbrand {
+  margin-left:20px;
+  color:gold;
+}
+
 .prof-pic {
   height: 200px;
   width: 200px;
