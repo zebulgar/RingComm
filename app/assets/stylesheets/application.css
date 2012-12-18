@@ -26,8 +26,18 @@ html, body{
   position: relative;
 }
 .inner-wrapper {
-  padding-top: 60px;
-  padding-bottom: 40px; 
+  width:100%; 
+  height:688px; 
+  -webkit-filter:blur(3px); 
+  background-position:center; 
+  background-image: url(http://upload.wikimedia.org/wikipedia/commons/c/c6/Boston_skyline_at_earlymorning.jpg);
+}
+.navbar {
+  margin-bottom:0px;
+}
+.brand {
+  margin-left:20px;
+  color:gold;
 }
 .prof-pic {
   height: 200px;
