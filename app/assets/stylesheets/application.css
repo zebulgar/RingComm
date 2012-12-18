@@ -28,7 +28,6 @@ html, body{
 .inner-wrapper {
   width:100%; 
   height:688px; 
-  -webkit-filter:blur(3px); 
   background-position:center; 
   background-image: url(http://upload.wikimedia.org/wikipedia/commons/c/c6/Boston_skyline_at_earlymorning.jpg);
 }
