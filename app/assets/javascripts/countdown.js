@@ -187,20 +187,20 @@ var Countdown = function (settings) {
 			var date_obj = self.getFormatedDate(current_date, end_works_date);
 
 			// set animation of Days
-			letter1.animate({path:helvetica[(date_obj.d).substr(0, 1)]}, 250);
-			letter2.animate({path:helvetica[(date_obj.d).substr(1)]}, 250);
+			letter1.animate({path:helvetica[(date_obj.d).substr(0, 1)]}, 0);
+			letter2.animate({path:helvetica[(date_obj.d).substr(1)]}, 0);
 
 			// set animation of Hours
-			letter3.animate({path:helvetica[(date_obj.h).substr(0, 1)]}, 250);
-			letter4.animate({path:helvetica[(date_obj.h).substr(1)]}, 250);
+			letter3.animate({path:helvetica[(date_obj.h).substr(0, 1)]}, 0);
+			letter4.animate({path:helvetica[(date_obj.h).substr(1)]}, 0);
 
 			// set animation of Minutes
-			letter5.animate({path:helvetica[(date_obj.m).substr(0, 1)]}, 250);
-			letter6.animate({path:helvetica[(date_obj.m).substr(1)]}, 250);
+			letter5.animate({path:helvetica[(date_obj.m).substr(0, 1)]}, 0);
+			letter6.animate({path:helvetica[(date_obj.m).substr(1)]}, 0);
 
 			// set animation of Seconds
-			letter7.animate({path:helvetica[(date_obj.s).substr(0, 1)]}, 250);
-			letter8.animate({path:helvetica[(date_obj.s).substr(1)]}, 250);
+			letter7.animate({path:helvetica[(date_obj.s).substr(0, 1)]}, 0);
+			letter8.animate({path:helvetica[(date_obj.s).substr(1)]}, 0);
 
 			// apply progress bar
 			self.setProgress(start_works_date, current_date, end_works_date);
