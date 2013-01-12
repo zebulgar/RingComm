@@ -30,7 +30,7 @@ var Countdown = function (settings) {
 	if (!settings.progress_bar_color) settings.progress_bar_color = "yellow"
 
 	// number styles
-	if (!settings.fill) settings.fill = "#e8e8e8";
+	if (!settings.fill) settings.fill = "#ffa812";
 	if (!settings.stroke) settings.stroke = "#6b6b6b";
 	if (!settings.fill_opacity) settings.fill_opacity = 1;
 	if (!settings.stroke_width) settings.stroke_width = 1;
@@ -47,8 +47,8 @@ var Countdown = function (settings) {
 		'<div class="main_section" style="width: 100%; margin-bottom: ' + (Math.ceil(MAIN_SECTION_MARGIN_BOTTOM * number_scale_x)) + 'px;">' +
 			'<div class="main_section2" style="padding: ' + (Math.ceil(MAIN_SECTION2_PADDING * number_scale_x)) + 'px 0">' +
 				'<div id="work_limits_' + settings.holder_id + '" class="work_limits clearfix">' +
-					'<div id="start_working_' + settings.holder_id + '" class="start_working"><span class="limit_title">Start Time:</span>&nbsp;&nbsp;<span class="limit_date"></span></div>' +
-					'<div id="end_working_' + settings.holder_id + '" class="end_working"><span class="limit_title">End Time:</span>&nbsp;&nbsp;<span class="limit_date"></span></div>' +
+					'<div id="start_working_' + settings.holder_id + '" class="start_working"><span class="limit_title">Today:</span>&nbsp;&nbsp;<span class="limit_date"></span></div>' +
+					'<div id="end_working_' + settings.holder_id + '" class="end_working"><span class="limit_title">Ring Premiere:</span>&nbsp;&nbsp;<span class="limit_date"></span></div>' +
 				'</div>' +
 				'<div id="countdown_' + settings.holder_id + '" class="countdown clearfix" style="padding: ' + (Math.ceil(COUNTDOWN_PADDING * number_scale_x)) + 'px 0">' +
 					'<div class="time_block">' +

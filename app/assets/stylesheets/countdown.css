@@ -2,7 +2,7 @@
 	countdown  - default styles
 */
 .main_section {
-	margin: 25px 0 25px 0;
+	margin: 60px 0 25px 0;
         text-align: center;
 }
 
@@ -55,11 +55,6 @@
 .time_block {
 	float: left;
 	padding: 0;
-	border-left: 1px solid #919191;
-	border-top: 1px solid #919191;
-	border-right: 1px solid #e1e1e1;
-	border-bottom: 1px solid #e1e1e1;
-	border-radius: 5px;
 	background: url("../images/grey_bg2.jpg") repeat left top;
 }
 
@@ -79,7 +74,7 @@
 }
 
 .countdown_title {
-
+	color: #666;
 }
 
 .countdown_title .countdown_item_title{
@@ -87,8 +82,8 @@
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: bold;
+	color: #666;
 	font-family: Arial, Helvetica, sans-serif;
-	text-shadow: 1px 1px 1px #333;
 }
 
 /*
