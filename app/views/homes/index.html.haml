@@ -1,5 +1,3 @@
-- content_for :head do
-  = stylesheet_link_tag "index"
 - content_for :body do
   %script{:type => 'text/javascript'}
     :plain
@@ -16,3 +14,57 @@
         });
       });
   #countdownHolder1
+  #team
+    %h2 2015 Ring Committee
+    .row
+      .span6
+        %h2 Matt Abel
+        .row
+          .span2
+            = image_tag 'matt.jpg', :class => 'prof-pic' 
+      .span6
+        %h2 Michelle Lee
+        .row
+          .span2
+            = image_tag 'michelle.jpg', :class => 'prof-pic'
+    .row
+      .span6
+        %h2 Meghan Torrence
+        .row
+          .span2
+            = image_tag 'meghan.jpg', :class => 'prof-pic'
+      .span6
+        %h2 Michael Flynn
+        .row
+          .span2
+            = image_tag 'michael.jpg', :class => 'prof-pic'
+    .row
+      .span6
+        %h2 John Queeny
+        .row
+          .span2
+            = image_tag 'john.jpg', :class => 'prof-pic'
+      .span6
+        %h2 Kira Kopacz
+        .row
+          .span2
+            = image_tag 'kira.jpg', :class => 'prof-pic'  
+    .row
+      .span6
+        %h2 Colleen Gabel
+        .row
+          .span2
+            = image_tag 'colleen.jpg', :class => 'prof-pic'
+      .span6
+        %h2 Margo Dawes
+        .row
+          .span2
+            = image_tag 'margo.jpg', :class => 'prof-pic'
+    .row
+      .span4.offset3
+        %h2 Delian Asparouhov
+        .row
+          .span2
+            = image_tag 'delian.jpg', :class => 'prof-pic'
+        
+

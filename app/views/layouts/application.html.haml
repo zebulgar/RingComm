@@ -7,35 +7,34 @@
     = csrf_meta_tags
     = yield :head
   %body
-    .wrapper
-      .navbar.navbar-fixed-top.navbar-inverse
-        .navbar-inner
-          .container
-            %a.btn.btn-navbar
-              %span.icon-bar
-              %span.icon-bar
-              %span.icon-bar
-          %a.brand#top_brand{:href => '#'}
-            2015 RingComm
-          %u1.nav
-            - if current_page?('/')
-              %li.active
-                %a{:href => '/'}
-                  Home
-            - else
-              %li
-                %a{:href => '/'}
-                  Home
+    .navbar.navbar-fixed-top.navbar-inverse
+      .navbar-inner
+        .container
+          %a.btn.btn-navbar
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+        %a.brand#top_brand{:href => '#'}
+          2015 RingComm
+        %u1.nav
+          - if current_page?('/')
+            %li.active
+              %a{:href => '/'}
+                Home
+          - else
             %li
-              %a{:href=> '/history'}
-                History
-            - if current_page?('/committee')
-              %li.active
-                %a{:href => '/committee'}
-                  Committee
-            - else
-              %li
-                %a{:href => '/committee'}
-                  Committee
-      .container.inner-wrapper{:style => 'width:100%;'}
-        = yield :body
+              %a{:href => '/'}
+                Home
+          %li
+            %a{:href=> '/history'}
+              History
+          - if current_page?('/committee')
+            %li.active
+              %a{:href => '/committee'}
+                Committee
+          - else
+            %li
+              %a{:href => '/committee'}
+                Committee
+    .container.inner-wrapper{:style => 'width:100%;'}
+      = yield :body
