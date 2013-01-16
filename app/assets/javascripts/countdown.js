@@ -30,7 +30,7 @@ var Countdown = function (settings) {
 	if (!settings.progress_bar_color) settings.progress_bar_color = "yellow"
 
 	// number styles
-	if (!settings.fill) settings.fill = "#ffa812";
+	if (!settings.fill) settings.fill = "#fcd116";
 	if (!settings.stroke) settings.stroke = "#6b6b6b";
 	if (!settings.fill_opacity) settings.fill_opacity = 1;
 	if (!settings.stroke_width) settings.stroke_width = 1;
