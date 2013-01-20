@@ -32,8 +32,8 @@ var Countdown = function (settings) {
 	// number styles
 	if (!settings.fill) settings.fill = "#fcd116";
 	if (!settings.stroke) settings.stroke = "#6b6b6b";
-	if (!settings.fill_opacity) settings.fill_opacity = 1;
-	if (!settings.stroke_width) settings.stroke_width = 1;
+	if (!settings.fill_opacity) settings.fill_opacity = 0.6;
+	if (!settings.stroke_width) settings.stroke_width = 0.8;
 
 
 	var countdown_width = settings.holder_width;
