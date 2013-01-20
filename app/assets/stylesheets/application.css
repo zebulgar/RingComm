@@ -142,6 +142,15 @@ margin-left: 10px;
   font: normal 27px "helvetica neue",helvetica,arial,sans-serif;
 }
 
+.logo {
+  height: 170px;
+  width: 170px;
+}
+
+#logo_holder {
+  text-align: center;
+}
+
 #top_brand {
   margin-left: 10px;
 }
