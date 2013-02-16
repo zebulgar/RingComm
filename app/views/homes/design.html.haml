@@ -1,0 +1,55 @@
+- content_for :navbar do
+  %u1.nav
+    %li
+      %a{:href => "/"}
+        Home
+    %li.active
+      %a{:href => "/design"}
+        Design
+    %li
+      %a{:href => "/pricing"}
+        Pricing
+- content_for :body do
+  #design
+    .row-fluid
+      %h2.center.title.helvetica
+        The Bezel
+    .row-fluid#bezel_row
+      .span6  
+        .center=image_tag 'bezel.jpg'
+      .span6
+        %h6 The 2015’s youthful and stunningly handsome beaver sits on a self-made dam, which embodies students’ inspired and entrepreneurial spirit, while swatting away seven ivy leaves whose veins spell out the first letter of each Ivy League school. His tail flips upwards as a result of sweeping the 8th leaf - whose veins form a ‘H’ - into the Charles River where it is now sinking, and represents his optimistic view of the future. He is orientated towards Boston, but his gaze looks back towards Cambridge, reminding us of our common origins at the Institute. Our beaver holds the world, and in his Brass Rat adorned hand, a Mobius Strip (a non-orientable surface along which one can trace an infinite line). These objects symbolize MIT’s global influence, the universal thinking and perspective we cultivate, and our boundless opportunities fostered as a result of that. 
+        %h6 The bezel’s backdrop features both Boston and Cambridge connected by the Mass Ave Bridge, and our unofficial motto ‘IHTFP’ engraved in the water waves. An astronaut footprint is imprinted into the Esplanade on the Boston shoreline in memoriam of Neil Armstrong. The lightning bolt is reminiscent of our Harry Potter themed orientation, and is in the shape of an organic chair molecule to commemorate the International Year of Chemistry. The Maseeh clock tower is set to the time 9:26 PM, which is when many heard of their admission on pi day, and the tree in front of Killian Court was blown over by Hurricanes Irene and Sandy. The radome on the Green Building has been replaced with a basketball to memorialize Mens’ Basketball advancing to the Final Four, and the windows are illuminated in a direct tribute to the Tetris hack. Finally, we gave our beaver a companion in Dragonair - the 148th pokemon as we are the 148th graduating class - to honor our collaborative ventures and lifelong friendships nurtured over these four years.
+    .row-fluid
+      %h2.center.title.helvetica
+        Class Shank
+    .row-fluid#class_row
+      .span8
+        %h6 Our class year ‘2015’ is elegantly emblazoned over the Great Dome: an iconic architectural landmark on campus and the setting of our Commencement. The MCMXVI on the face of the dome, representing the year MIT relocated to Cambridge from Boston, has been robbed of its C and I by hackers - depicted crawling stealthily across the roof to the right - leaving our class year ‘MMXV’ in Roman numerals. President Reif is seen climbing up the stairs of Lobby 10 and former President Hockfield making her way down to symbolize the presidential transition that took place during our freshman year. Athena, the Greek Goddess of wisdom, courage and resilience, and the namesake of our operating system, stands strong in Killian Court. She displays the right-hand rule as she clasps the spear, which is adorned with a DNA strand to commemorate the 25th anniversary of the Human Genome Project in 2015. The shield reads ‘2015’ in binary around the rim, and is further embellished with the CERN logo to celebrate the detection of the Higgs boson, the last observed fundamental particle. The vintage nuts and bolts insignia completes the class shank, while the ‘I’ morphing into the thread of a screw embodies our fortitude. The central screw of the ‘T’ is also tightened to read ‘x’ for MITx: an initiative that underscores the Institute’s philanthropic pursuits.
+      .span4  
+        .center=image_tag 'class.jpg', :id => "class_picture"
+    .row-fluid
+      %h2.center.title.helvetica
+        Seal Shank
+    .row-fluid#seal_row
+      .span4  
+        .center=image_tag 'seal.jpg', :id => "seal_picture"
+      .span8
+        %h6 A classically embossed ‘MIT’ is set above the institution’s traditional seal, framed by laurel and oak leaves symbolizing strength and wisdom. The craftsman and scholar personify our academic philosophy ‘Mens et Manus’ (‘Mind and Hand’), which reflects our ideal of the synthesis of knowledge and application; for we seek knowledge not only to satisfy our intellectual curiosity, but also to better humanity. The lamp atop of the pedestal burns bright to emblematize our unyielding commitment to excellence, with the flames forming a ‘15’. Rising over the horizon is the Curiosity Rover, a feat of engineering brilliance whose life span parallels our own at MIT, having been launched our freshman year and being set to explore until 2015. At the foot of the shank lies a gyroscope with spokes shaped to spell ‘punt’ and ‘tool’; the device embodies our drive to solve the work-life dichotomy. Serving as the backdrop are circuits (forming a ‘148’) and mechanical gears to represent our endeavor to understand the inner workings of technologies and the Universe.
+    .row-fluid
+      %h2.center.title.helvetica
+        Skylines
+    .row-fluid#seal_row
+      .span6
+        %h6 Cambridge is depicted in the nighttime to represent our nocturnal tendencies. Silhouetted on either end are dorms located on each side of campus: Simmons and East Campus. The double pendulum commemorates the courtyard constructions that are an integral part of the latter’s culture. The Dome (and Killian Court) is centered as the heart of the campus, and is flanked by other prominent buildings: Kresge Auditorium, Stata Center, and the Green Building. The shooting star is a symbol of hope, unlimited possibilities, and Stellar crashing. The Cambridge side is underlined by the Golden ratio: a mathematical reference to beauty and perfection.
+        %h6 Boston also appears as it would at night because this is when many tend to view it from campus whilst psetting (or punting) in the early hours. Marked silhouettes include the Hancock Tower, Prudential Center, Back Bay Brownstones and Citgo Sign. Fenway makes another appearance, having just celebrated its 100th anniversary and being as it is the location of the Class of 2015 Ring Delivery. The DeLorean is a reference to Back to the Future, which was set in the year 2015. The rowers in the two racing shells form a ‘15’, as do the sails of the two dinghies.
+      .span6  
+        .center=image_tag 'skylines.jpg', :id => "seal_picture"
+    .row-fluid
+      %h2.center.title.helvetica
+        Hacker's Map
+    .row-fluid#seal_row
+      .span6  
+        .center=image_tag 'map.jpg', :id => "seal_picture"    
+      .span6
+        %h6 The Hacker’s Map is engraved on the underside of the bezel to celebrate the interconnectivity of the Institute, and to honor the MIT’s rich tradition of illicit excursions. We wish you luck in your future endeavors.

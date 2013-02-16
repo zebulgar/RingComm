@@ -16,5 +16,8 @@
             %span.icon-bar
         %a.brand#top_brand{:href => '#'}
           MIT 2015 RingComm
+        = yield :navbar
     #inner-wrapper.container
       = yield :body
+      #footer
+        %h6.center © 2013 Delian Asparouhov

@@ -1,3 +1,14 @@
+- content_for :navbar do
+  %u1.nav
+    %li.active
+      %a{:href => "/"}
+        Home
+    %li
+      %a{:href => "/design"}
+        Design
+    %li
+      %a{:href => "/pricing"}
+        Pricing
 - content_for :body do
   %script{:type => 'text/javascript'}
     :plain
@@ -130,5 +141,3 @@
         %h4.center 
           First Brass Rat Shank
         =image_tag 'firstShank.jpg', :class => 'of_old'
-  #footer
-    %h6.center © 2013 Delian Asparouhov
