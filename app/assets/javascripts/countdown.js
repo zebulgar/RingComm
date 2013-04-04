@@ -48,7 +48,7 @@ var Countdown = function (settings) {
 			'<div class="main_section2" style="padding: ' + (Math.ceil(MAIN_SECTION2_PADDING * number_scale_x)) + 'px 0">' +
 				'<div id="work_limits_' + settings.holder_id + '" class="work_limits clearfix">' +
 					'<div id="start_working_' + settings.holder_id + '" class="start_working"><span class="limit_title">Today:</span>&nbsp;&nbsp;<span class="limit_date"></span></div>' +
-					'<div id="end_working_' + settings.holder_id + '" class="end_working"><span class="limit_title">Ring Premiere:</span>&nbsp;&nbsp;<span class="limit_date"></span></div>' +
+					'<div id="end_working_' + settings.holder_id + '" class="end_working"><span class="limit_title">Ring Delivery:</span>&nbsp;&nbsp;<span class="limit_date"></span></div>' +
 				'</div>' +
 				'<div id="countdown_' + settings.holder_id + '" class="countdown clearfix" style="padding: ' + (Math.ceil(COUNTDOWN_PADDING * number_scale_x)) + 'px 0">' +
 					'<div class="time_block">' +
